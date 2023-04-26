@@ -3,6 +3,7 @@
 #The second file will be named triple.txt containing the cube of all odd numbers found in the integer.txt
 
 #define a function
+def read_append_file():
     #open files named: numbers.txt file (read), even.txt file (append), odd.txt file (append)   
         #read the numbers.txt file line by line
         #check each lines of numbers.txt
@@ -12,3 +13,5 @@
             #ELSE, if the line has odd number
                 #THEN extract this number and get its cube
                 #THEN the cubed odd number will append/write to triple.txt file
+
+read_append_file()
