@@ -6,8 +6,9 @@
 def read_append_file():
     #open files named: numbers.txt file (read), even.txt file (append), odd.txt file (append)   
     with open("integers.txt") as source_file, open("double.txt", "a") as squared_nums, open("triple.txt", "a") as cubed_nums:    
-
         #read the numbers.txt file line by line
+        for line in source_file:
+            source_file_nums = int(line)
         #check each lines of numbers.txt
             #IF the line has even number,
                 #THEN extract this number and square it
