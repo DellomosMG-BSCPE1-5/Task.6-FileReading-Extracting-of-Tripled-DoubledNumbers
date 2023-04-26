@@ -11,8 +11,11 @@ def read_append_file():
             source_file_nums = int(line)
         #check each lines of numbers.txt
             #IF the line has even number,
+            if source_file_nums % 2 == 0:
                 #THEN extract this number and square it
+                doubled_even = source_file_nums**2
                 #THEN the squared even number will append/write to double.txt file
+                squared_nums.write(str(doubled_even) + "\n")
             #ELSE, if the line has odd number
                 #THEN extract this number and get its cube
                 #THEN the cubed odd number will append/write to triple.txt file
