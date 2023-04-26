@@ -17,7 +17,10 @@ def read_append_file():
                 #THEN the squared even number will append/write to double.txt file
                 squared_nums.write(str(doubled_even) + "\n")
             #ELSE, if the line has odd number
+            else:
                 #THEN extract this number and get its cube
+                odd_tripled = source_file_nums**3
                 #THEN the cubed odd number will append/write to triple.txt file
+                cubed_nums.write(str(odd_tripled) + "\n")
 
 read_append_file()
