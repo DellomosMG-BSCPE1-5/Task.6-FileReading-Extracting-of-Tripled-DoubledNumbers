@@ -9,7 +9,7 @@ Write a method in python that will create two separate text files after reading 
 * The second file will be named triple.txt containing the cube of all odd numbers found in the integer.txt
 
 ## The program contains the following:
-* Modulus Operation
+* Modulus Operator
 * ** Operator
 * Defines a function 
 * If-Else Statements
